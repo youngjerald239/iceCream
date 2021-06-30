@@ -12,4 +12,11 @@ let order = (call_production) =>{
     call_production()
 }
 
-let production = () =>{}
+let production = () =>{
+
+    console.log("Production has started")
+}
+
+// Trigger 👇
+
+order(production)
